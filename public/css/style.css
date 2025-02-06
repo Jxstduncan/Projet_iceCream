@@ -10,18 +10,28 @@
    margin-left: 200px;
    width: 100px; 
 }
-.icecream{
-    margin-left: 200px;
-    width: 400px;
-}
 .pink{
     background-color: pink;
     border: 0px;
     border-radius: 5px;
-    width: 100px;
-    height: 30px;
+    width: 170px;
+    height: 35px;
     margin-left: 200px;
 }
 .pinks{
     color: pink;
+}
+.strawberry{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 500px;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.creamy{
+    width:400px ;
+    margin-left: 200px;
 }
