@@ -32,6 +32,24 @@
     margin-left: 100px;
 }
 .creamy{
-    width:400px ;
+    width: 400px ;
     margin-left: 200px;
+}
+.dameBlanche{
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.about{
+    margin-top: 200px;
+}
+.login{
+   width: 100px; 
+   height: 50px;
+   border: 0px;
+   background-color: white;
+}
+.text{
+    width:700px;
+    margin-top: 30px;
 }
