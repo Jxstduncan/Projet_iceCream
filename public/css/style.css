@@ -17,6 +17,7 @@
     width: 170px;
     height: 35px;
     margin-left: 200px;
+    color: white;
 }
 .pinks{
     color: pink;
@@ -52,4 +53,23 @@
 .text{
     width:700px;
     margin-top: 30px;
+}
+.read{
+    background-color: pink;
+    border: 0px;
+    border-radius: 5px;
+    width: 170px;
+    height: 35px;
+    color: white;
+
+}
+.featurs{
+    margin-left: 50px;
+}
+.btn{
+    color: pink;
+    background-color: white;
+}
+.card-group{
+    justify-content: space-between;
 }
