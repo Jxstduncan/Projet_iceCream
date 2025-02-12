@@ -1,121 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/css/style.css">
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/style.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-light">
-        <div class="container-fluid">
-          <img src="./images/logo.png" alt="">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ">
-              <a class="nav-link active " style="color: pink;" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">IceCream</a>
-              <a class="nav-link" href="">Services</a>
-              <a class="nav-link" href="">Blog</a>
-            </div>
-          </div>
-          <div>
-            <button class="login">login<i class="fa-solid fa-right-to-bracket"></i></button>
-          </div>
-          <div>
-            <button style="border: 0px; background-color: white; "><i class="fa-regular fa-sun"></i></button>
-          </div>
-        </div>
-      </nav>
-      <h1 class="bottom"></h1>
-
-      <!-- grande div pour img plus text -->
-       <div class="d-flex">
-        <div>
-            <h1 class="cream">Ice Cream</h1>
-            <p class="creamy">It is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem</p>
-            <button class="pink">Order Now</button>
-        </div>
-          <div class="strawberry">
-          <img src="./images/banner-img.png" class="img" alt="">
-        </div>
-       </div>
-       <!-- fin de div pour img plus text -->
-        <div class="d-flex ">
-          <div>
-            <img src="./images/about-img.png" class="dameBlanche" alt="">
-          </div>
-          <div>
-            <h1 class="about">About IceCream</h1> 
-            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quos consequatur omnis perspiciatis deserunt libero itaque harum obcaecati nesciunt corporis ullam mollitia odit enim nostrum adipisci iure ex doloribus impedit maxime dicta quisquam, possimus ut. Minus nisi doloribus repudiandae quos perferendis inventore voluptatum fuga? Tenetur porro eos quis odit iure sint voluptate dolores voluptatum, hic exercitationem ut reiciendis ea libero?</p>
-            <button class="read">Read More</button>
-          </div>
-        </div>
-
-        <div>
-          <div>
-            <h1 class="featurs">Our Featured Ice Cream</h1>
-            <p class="featurs">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          </div>
-          <div class="card-group d-flex ">
-            <div class="card">
-              <img src="./images/img-1.png" class="card-img-top" style="width: 250px; margin-left: 80px;" alt="...">
-              <div class="card-body " style="text-align: center;">
-                <h5 class="card-title">Strawberry Ice Cream</h5>
-                <button class="btn" style="border-color: pink; color: pink; border-radius: 100px;">Add To Cart</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./images/img-2.png" class="card-img-top" style="width: 100px; margin-left: 150px;" alt="...">
-              <div class="card-body " style="text-align: center;">
-                <h5 class="card-title">Strawberry Ice Cream</h5>
-                <button class="btn" style="border-color: pink; color: pink; border-radius: 100px;">Add To Cart</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./images/img-1.png" style="width: 300px; margin-left: 80px;" class="card-img-top" alt="...">
-              <div class="card-body" style="text-align: center;">
-                <h5 class="card-title">Strawberry Ice Cream</h5>
-               <button  class="btn" style="border-color: pink; color: pink; border-radius: 100px;">Add To Cart</button>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card-group d-flex justify-content-between">
-              <div class="card">
-                <img src="./images/img-3.png" class="card-img-top" style="width: 250px; margin-left: 80px;" alt="...">
-                <div class="card-body " style="text-align: center;">
-                  <h5 class="card-title">Strawberry Ice Cream</h5>
-                  <button class="btn" style="border-color: pink; color: pink; border-radius: 100px;">Add To Cart</button>
-                </div>
-              </div>
-              <div class="card" style="background-color: lightgrey;">
-                <img src="./images/img-4.png" class="card-img-top" style="width: 300px; margin-left: 70px; ;" alt="...">
-                <div class="card-body " style="text-align: center; background-color:white;">
-                  <h5 class="card-title">Strawberry Ice Cream</h5>
-                  <button class="btn" style="border-color: pink; color: pink; border-radius: 100px;">Add To Cart</button>
-                </div>
-              </div>
-              <div class="card">
-                <img src="./images/img-5.png" style="width: 300px; margin-left: 80px;" class="card-img-top" alt="...">
-                <div class="card-body" style="text-align: center;">
-                  <h5 class="card-title">Strawberry Ice Cream</h5>
-                 <button  class="btn" style="border-color: pink; color: pink; border-radius: 100px;">Add To Cart</button>
-                </div>
-          </div>
-        </div>
-          <button class="pink" style="margin-left: 530px; margin-top: 50px;">See More</button>
-      <div>
-        <div>
-          <h1 style="margin-top: 100px; margin-left: 100px;">Our ice Cream Services</h1>
-          <p style="margin-left: 100px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  <nav class="navbar navbar-expand-lg bg-body-light">
+    <div class="container-fluid">
+      <img src="./images/logo.png" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a class="nav-link active " style="color: pink;" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">IceCream</a>
+          <a class="nav-link" href="">Services</a>
+          <a class="nav-link" href="">Blog</a>
         </div>
       </div>
-    <script src="./public/js/main.js"></script>
+      <div>
+        <button class="login">login<i class="fa-solid fa-right-to-bracket"></i></button>
+      </div>
+      <div>
+        <button style="border: 0px; background-color: white; "><i class="fa-regular fa-sun"></i></button>
+      </div>
+    </div>
+  </nav>
+  <h1 class="bottom"></h1>
+
+  <!-- grande div pour img plus text -->
+  <div class="d-flex">
+    <div>
+      <h1 class="cream">Ice Cream</h1>
+      <p class="creamy">It is a long estabilshed fact that a reader will be distracted by the readable content of a page
+        when looking at its layout.The point of using Lorem</p>
+      <button class="pink">Order Now</button>
+    </div>
+    <div class="strawberry">
+      <img src="./images/banner-img.png" class="img" alt="">
+    </div>
+  </div>
+  <!-- fin de div pour img plus text -->
+  <div class="d-flex ">
+    <div>
+      <img src="./images/about-img.png" class="dameBlanche" alt="">
+    </div>
+    <div>
+      <h1 class="about">About IceCream</h1>
+      <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quos consequatur omnis
+        perspiciatis deserunt libero itaque harum obcaecati nesciunt corporis ullam mollitia odit enim nostrum adipisci
+        iure ex doloribus impedit maxime dicta quisquam, possimus ut. Minus nisi doloribus repudiandae quos perferendis
+        inventore voluptatum fuga? Tenetur porro eos quis odit iure sint voluptate dolores voluptatum, hic
+        exercitationem ut reiciendis ea libero?</p>
+      <button class="read">Read More</button>
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <h1 class="featurs">Our Featured Ice Cream</h1>
+      <p class="featurs">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+    <div style="display: flex; justify-content: space-evenly;">
+      <div class="card" style="width: 18rem;">
+        <img src="./images/img-1.png" style="width: 200px; margin-left: 50px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <b style="margin-left: 120px;">10$</b>
+          <h5 class="card-title" style="margin-left: 50px;">Strawberry Ice Cream</h5>
+          <button class="btn" style="border-color: pink; color: pink; border-radius: 100px; margin-left: 80px;">Add To
+            Cart</button>
+        </div>
+      </div>
+      <div>
+        <div class="card" style="width: 18rem; display: flex;">
+          <img src="./images/img-2.png" style="width: 100px; margin-left: 100px;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <b style="margin-left: 120px;">10$</b>
+            <h5 class="card-title" style="margin-left: 50px;">Strawberry Ice Cream</h5>
+            <button class="btn" style="border-color: pink; color: pink; border-radius: 100px;margin-left: 80px;">Add To
+              Cart</button>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: space-evenly;">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/img-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <b style="margin-left: 120px;">10$</b>
+            <h5 class="card-title" style="margin-left: 50px;">Strawberry Ice Cream</h5>
+            <button class="btn" style="border-color: pink; color: pink; border-radius: 100px; margin-left: 80px;">Add To
+              Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div>
+        <div>
+          <div style="display: flex; justify-content: space-evenly; margin-top: 10px;">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/img-1.png" style="width: 200px; margin-left: 50px;" class="card-img-top" alt="...">
+              <div class="card-body">
+                <b style="margin-left: 120px;">10$</b>
+                <h5 class="card-title" style="margin-left: 50px;">Strawberry Ice Cream</h5>
+                <button class="btn" style="border-color: pink; color: pink; border-radius: 100px; margin-left: 80px;">Add To
+                  Cart</button>
+              </div>
+            </div>
+            <div>
+              <div class="card" style="width: 18rem; display: flex;">
+                <img src="./images/img-2.png" style="width: 100px; margin-left: 100px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <b style="margin-left: 120px;">10$</b>
+                  <h5 class="card-title" style="margin-left: 50px;">Strawberry Ice Cream</h5>
+                  <button class="btn" style="border-color: pink; color: pink; border-radius: 100px;margin-left: 80px;">Add To
+                    Cart</button>
+                </div>
+              </div>
+            </div>
+            <div style="display: flex; justify-content: space-evenly;">
+              <div class="card" style="width: 18rem;">
+                <img src="./images/img-1.png" style="width: 200px; margin-left: 50px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <b style="margin-left: 120px;">10$</b>
+                  <h5 class="card-title" style="margin-left: 50px;">Strawberry Ice Cream</h5>
+                  <button class="btn" style="border-color: pink; color: pink; border-radius: 100px; margin-left: 80px;">Add To
+                    Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  <button class="pink" style="margin-left: 530px; margin-top: 50px;">See More</button>
+  <div>
+    <div>
+      <h1 style="margin-top: 100px; margin-left: 100px;">Our ice Cream Services</h1>
+      <p style="margin-left: 100px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+  </div>
+  <div>
+    <div class="d-flex">
+      <div class="card mb-3" style="max-width: 400px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./images/icon-1.png" style="margin-left: 100px; margin-top:20px;" class="img-fluid rounded-start"
+              alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Cookie Ice cream</h5>
+              <p class="card-text" style="width: 250px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum debitis deleniti, non sed sit nihil asperiores!</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./public/js/main.js"></script>
 </body>
+
 </html>
